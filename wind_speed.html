@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Plot: Wind Speed</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-expand-xl">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><strong> Latitude </strong></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span
+                                class="glyphicon glyphicon-picture"></span> Plots<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="max_temp.html">Max Temperature</a></li>
+                            <li><a href="humidity.html">Humidity</a></li>
+                            <li><a href="cloudiness.html">Cloudiness</a></li>
+                            <li><a href="wind_speed.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="comparison.html"><span class="glyphicon glyphicon-th-large"></span> Comparison</a></li>
+                    <li><a href="data.html"><span class="glyphicon glyphicon-download-alt"></span> Data</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="main-box">
+                    <h1 id="title"><b> Wind Speed </b></h1>
+                    <hr>
+                    <img class="visual" src="images/Latitude_v_Wind_Speed.png" alt="Lattitude vs. Wind Speed">
+                    <p>When it comes to wind speed around the equator, it is minimal (i.e. under 20mph with most cities
+                        clustered around 0 to 10mph). While the majority of data points for wind speed against latitude
+                        are clustered below 15mph, as you move further away from the equator, there are more outliers
+                        (i.e. higher wind speeds).</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="supp-box">
+                    <h2 id="title"><b> Visualizations </b></h2>
+                    <hr>
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-3 col-md-6">
+                            <a href="max_temp.html"><img class="grid-item" src="images/Latitude_v_Max_Temp.png"
+                                    alt="Lattitude vs. Max Temp"></a>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-6">
+                            <a href="humidity.html"><img class="grid-item" src="images/Latitude_v_Humidity.png"
+                                    alt="Lattitude vs. Humidity"></a>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-6">
+                            <a href="cloudiness.html"><img class="grid-item" src="images/Latitude_v_Cloudiness.png"
+                                    alt="Lattitude vs. Cloudiness"></a>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-6">
+                            <a href="wind_speed.html"><img class="chosen-item" src="images/Latitude_v_Wind_Speed.png"
+                                    alt="Lattitude vs. Wind Speed"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="footer text-center py-3">Hanna Polowczyk 2019</div>
+    </footer>
+</body> 
+
+</html>

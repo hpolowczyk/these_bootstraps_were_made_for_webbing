@@ -1,0 +1,97 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(235, 235, 235);
+}
+
+#title {
+    color:turquoise;
+}
+
+.navbar-default {
+    background-color: white;
+}
+
+.navbar-header {
+    background-color: turquoise;
+}
+
+.navbar>.container-fluid .navbar-brand {
+    color:white;
+    background-color: turquoise;
+}
+
+.navbar-brand {
+    background-color: turquoise;
+    position: absolute;
+    left:50px;
+    font-size:24px;
+    
+}
+
+.container {
+    margin: 50px;
+    margin-top:20px;
+    margin-right:50px;
+
+}
+
+.main-box {
+    margin: 10px;
+    padding: 30px;
+    background-color: white;
+}
+
+.supp-box {
+    margin: 10px;
+    padding: 30px;
+    background-color: white;
+
+}
+
+img.summary {
+    margin:15px;
+    max-width:40%;
+    height:auto;
+    float: left;
+  }
+
+.visual {
+    display: block;
+    max-width:100%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chosen-item {
+    border-style: solid;
+    border-color: turquoise;
+    background-color: turquoise;
+}
+
+#question {
+    text-align:center;
+    font-size: 18px;
+}
+
+.grid-item {
+    max-width:100%;
+    height:auto;
+    padding:2px;
+}
+
+.chosen-item {
+    max-width:100%;
+    height:auto;
+    padding:2px;
+    background-color: turquoise;
+}
+
+.page-footer {
+    font-size:18px;
+    background-color: rgba(80, 80, 80);
+    color:white;
+    border-top-width: thick;
+    border-top-style: solid;
+    border-top-color: turquoise;
+}
