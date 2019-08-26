@@ -29,14 +29,14 @@ body {
 }
 
 .container {
+    min-height: calc(100vh - 152px);
     margin: 50px;
     margin-top:20px;
-    margin-right:50px;
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.row {
-    height:100hv;
-}
 
 .main-box {
     margin: 10px;
@@ -91,7 +91,7 @@ img.summary {
 }
 
 .page-footer {
-    font-size:18px;
+    font-size:20px;
     background-color: rgba(80, 80, 80);
     color:white;
     border-top-width: thick;
